@@ -1,0 +1,8 @@
+[26-Apr-2014 14:19:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column '	_commcampaign_sent' in 'field list'' in /home/seskhona/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/seskhona/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('UPDATE `_commca...')
+#1 /home/seskhona/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'UPDATE `_commca...')
+#2 /home/seskhona/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('UPDATE `_commca...')
+#3 /home/seskhona/public_html/library/classes/Zend/Db/Adapter/Abstract.php(604): Zend_Db_Adapter_Abstract->query('UPDATE `_commca...', Array)
+#4 /home/seskhona/public_html/library/classes/Zend/Db/Table/Abstract.php(1110): Zend_Db_Adapter_Abstract->update('_commcampaign', Array, '_commcampaign_c...')
+#5 /home/seskhona/public_html/library/classes/class/_com in /home/seskhona/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

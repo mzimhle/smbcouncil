@@ -1,0 +1,2 @@
+[11-Jul-2014 08:16:13 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_mailinglist::validateEmail() in /home/smbcounc/public_html/administration/participant/subscribe/details.php on line 51
+[11-Jul-2014 10:10:31 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/smbcounc/public_html/library/classes/class/mailinglist.php on line 50

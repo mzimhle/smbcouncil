@@ -1,0 +1,211 @@
+body{
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    background: #242424 url(/images/back.jpg);
+    padding: 0; margin: 0;
+}
+h1, h2, h3{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #bca051;
+}
+.container{
+    width: 828px;
+    margin: auto;
+}
+.shieldbox{
+    background: url(/images/body_bck.png) no-repeat center top;
+    padding: 90px 0 0 0;
+    margin-top: 12px;
+}
+.leftbox{
+    text-align: left;
+    float: left;
+    width: 260px;
+    margin: 50px 0 0 120px;
+}
+.logobox{
+    margin: auto;
+    width: 176px;
+}
+.leftwrap{
+    width: 260px;
+    margin: auto;
+}
+.leftbox p, .rightbox p{
+    text-align: left;
+    font-size: 12px;
+    color:  #FFF;
+}
+.rightbox{
+    text-align: left;
+    float: left;
+    width: 260px;
+    margin: 54px 0 0 60px;
+}
+.regform{
+    padding: 7px 0 0 0;
+}
+input[type=text], input[type=email]{
+    color: #333;
+    padding: 7px 5px;
+    border: 0;
+    width: 250px;
+    margin: 0 0 10px 0;
+}
+input[type=submit]{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    color: #bca051;
+    font-size: 18px;
+    font-weight: bold;
+    background: #242b7f;
+    border: 0;
+    margin: 8px 0 8px 0;
+    padding: 6px 16px 5px 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: left;
+}
+label{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #bca051;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+:focus{
+    outline: none;
+    border: 0;
+}
+.shadow{
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.floattxt{
+    float: left;
+    margin: 14px 0 0 27px;
+}
+.soclog{
+    float: left;
+    margin: 8px 0 0 19px;
+}
+.soclog img{
+    cursor: pointer;
+}
+.cf:after{
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+    max-height: 0;
+}
+*:first-child+html .cf{ /* IE7 */
+    zoom: 1;
+}
+.space{
+    margin-bottom: 80px;
+}
+.counttxt{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 600px;
+    margin: auto;
+}
+.countbox{
+    width: 600px;
+    margin: 10px 0 0 145px;
+}
+.countbox div{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0 7px;
+    width: 100px;
+    float: left;
+    margin: 0 26px 0 0;
+}
+.countbox span{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #6d540f;
+    padding: 0 10px 18px 10px;
+    display: block;
+    margin: -7px 0 15px 0;
+}
+.membox{
+    width: 596px;
+    margin: auto;
+}
+.lmem, .rmem{
+    float: left;
+    width: 50%;
+}
+.membox img{
+    float: left;
+    margin-right: 6px;
+}
+.meminfo{
+    float: left;
+    background: url(/images/mem_bck.png);
+    padding: 7px 10px;
+    width: 180px;
+    margin: 0 0 30px 0;
+}
+.mname{
+    font-family: 'Century Gothic', 'Questrial', Helvetica, Verdana, Arial, sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0px;
+    color: #6d540f;
+}
+.meminfo p{
+    font-size: 10px;
+    line-height: 11px;
+    margin: 5px 0 0 0;
+}
+.meminfo span{
+    color: #6d540f;
+}
+footer{
+    font-size: 11px;
+    border-top: 6px solid #bca051;
+    padding: 18px 0 50px 0;
+    margin: 25px 0 0 0;
+    background: url(/images/mem_bck.png);
+}
+.footbox{
+    width: 596px;
+    margin: auto;
+}
+.copytxt{
+    float: left;
+    width: 396px;
+}
+.soclinks{
+    text-align: right;
+    float: right;
+    width: 200px;
+}
+.soclinks img{
+    margin-left: 8px;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}

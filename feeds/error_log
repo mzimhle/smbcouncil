@@ -1,0 +1,3 @@
+[20-Jul-2014 15:29:55 Africa/Johannesburg] PHP Warning:  require_once(class/ADMIN/calendar.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/smbcounc/public_html/feeds/calendar.php on line 9
+[20-Jul-2014 15:29:55 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/ADMIN/calendar.php' (include_path='/home/smbcounc/public_html/:/home/smbcounc/public_html/library/classes/') in /home/smbcounc/public_html/feeds/calendar.php on line 9
+[20-Jul-2014 17:31:37 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ')' in /home/smbcounc/public_html/library/classes/class/mailinglist.php on line 271

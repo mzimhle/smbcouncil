@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteBase /
+
+DirectoryIndex index.php default.php
+
+Options Includes FollowSymLinks MultiViews
+
+# Mailers
+RewriteRule ^mailers/view/([^/\.]+)/?$						mailers/view.php?code=$1								[QSA,L]
+RewriteRule ^mailers/unsubscribe/([^/\.]+)/?$			mailers/unsubscribe.php?code=$1					[QSA,L]
+RewriteRule ^mailers/tracking/([^/\.]+)/?$					mailers/tracking.php?tracking=$1					[QSA,L]
+RewriteRule ^mailers/activate/member/([^/\.]+)/?$		registration/activate/default.php?code=$1		[QSA,L] 
+RewriteRule ^mailers/response/([^/\.]+)/([^/\.]+)/?$	mailers/response.php?response=$1&dep=$2 	[QSA,L]
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]

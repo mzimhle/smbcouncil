@@ -1,0 +1,115 @@
+[15-Feb-2014 11:07:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Mar-2014 11:32:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 10:49:25 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participant' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): class_p in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 11:08:46 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participant' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): class_p in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 11:08:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participants' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): class_ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 11:12:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Can't connect to MySQL server on '127.0.0.1' (111)' in /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(448): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#2 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#3 /home/smbcounc/public_html/administration/participants/view/default.php(114): class_participant->getAll('participant_del...', 'participant.par...')
+#4 {main}
+  thrown in /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[04-Jul-2014 11:12:20 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participant' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): class_p in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 12:20:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participantcategory' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 14:38:35 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.participantcategory' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(45): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participants/view/default.php(114): in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[04-Jul-2014 15:35:30 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/participants/view/default.tpl" in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[04-Jul-2014 15:50:02 Africa/Johannesburg] PHP Warning:  require_once(global_functions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/smbcounc/public_html/administration/participant/view/details.php on line 13
+[04-Jul-2014 15:50:02 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'global_functions.php' (include_path='/home/smbcounc/public_html/:/home/smbcounc/public_html/library/classes/') in /home/smbcounc/public_html/administration/participant/view/details.php on line 13
+[04-Jul-2014 15:51:03 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/participants/view/details.tpl" in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[15-Jul-2014 16:22:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/smbcounc/public_html/library/classes/class/participant.php(93): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(57): class_participant->getByCode(NULL)
+#5 /home/smbcounc/public_html/administration/participant/view/default.php(32): class_participant->update(Array, 'participant_cod...')
+#6 {main}
+  thrown in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[16-Jul-2014 15:26:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/smbcounc/public_html/library/classes/class/participant.php(135): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(63): class_participant->getByCode(NULL)
+#5 /home/smbcounc/public_html/administration/participant/view/default.php(32): class_participant->update(Array, 'participant_cod...')
+#6 {main}
+  thrown in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[16-Jul-2014 15:26:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/smbcounc/public_html/library/classes/class/participant.php(135): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/smbcounc/public_html/library/classes/class/participant.php(63): class_participant->getByCode(NULL)
+#5 /home/smbcounc/public_html/administration/participant/view/default.php(32): class_participant->update(Array, 'participant_cod...')
+#6 {main}
+  thrown in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[16-Jul-2014 15:34:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'participant_code' in where clause is ambiguous' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/participantlogin.php(316): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/participant/view/login.php(2 in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Jul-2014 15:40:11 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in administration/participant/view/login.tpl line 59]: syntax error: mismatched tag {/foreach}. (Smarty_Compiler.class.php, line 2303) in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095

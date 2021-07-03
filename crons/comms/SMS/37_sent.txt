@@ -1,0 +1,7 @@
+api_id:3476493
+user:willowvine
+password:DUJbgGdNRXROaA
+text:Hello #field1#. 16p m se nt16p m  sent 16p m se nt1 6pm  se nt
+reply:admin@willow-nettica.co.za
+Delimiter:|
+csv:27725896524|Thabile

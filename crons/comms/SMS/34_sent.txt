@@ -1,0 +1,9 @@
+api_id:3476493
+user:willowvine
+password:DUJbgGdNRXROaA
+text:Good day #field1#. sent message to number: 27735640764.
+reply:admin@willow-nettica.co.za
+Delimiter:|
+csv:27735640764|Thabile
+csv:27735640764|Donald
+csv:27735640764|Dennis

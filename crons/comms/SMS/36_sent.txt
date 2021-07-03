@@ -1,0 +1,8 @@
+api_id:3476493
+user:willowvine
+password:DUJbgGdNRXROaA
+text:Hello #field1#. as dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sfas dfa d sf
+reply:admin@willow-nettica.co.za
+Delimiter:|
+csv:27735640764|Donald
+csv:27735640764|Dennis

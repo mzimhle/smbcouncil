@@ -1,0 +1,8 @@
+api_id:3476493
+user:willowvine
+password:DUJbgGdNRXROaA
+text:Good day #field1#. as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a as dd s  fa sd a
+Delimiter:|
+csv:0735640764|Thabile
+csv:0735640764|Donald
+csv:0735640764|Dennis

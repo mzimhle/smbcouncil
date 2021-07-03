@@ -1,0 +1,8 @@
+api_id:3476493
+user:willowvine
+password:DUJbgGdNRXROaA
+text:Hello #field1#. 16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent16:18 sent
+reply:admin@willow-nettica.co.za
+Delimiter:|
+csv:27785648254|Donald
+csv:27835879654|Dennis

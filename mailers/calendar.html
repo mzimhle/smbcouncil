@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SMB Council</title>
+{literal}
+<style type="text/css">
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+/* Reset Styles */
+body{margin:0; padding:0; background-color: #343434; font-size: 20px;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+table td{border-collapse:collapse;}
+#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+a{color: #4c4c4c;text-decoration: none;}
+</style>
+{/literal}
+</head>
+<body style="margin: 0; padding: 0; text-align: center; background-image: url(http://{$domain}/mailers/images/back.jpg)">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="http://{$domain}/mailers/images/back.jpg">
+	<tr>
+    	<td align="center">
+            <table width="600" border="0" cellpadding="0" cellspacing="0" style="box-shadow: 1px 2px 4px #222222;">
+                <tr>
+                    <td align="left" valign="top" style="font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif;" bgcolor="#FFFFFF">
+                    	<img src="http://{$domain}/mailers/images/head.gif" width="600" height="103" border="0" alt="SMB Council" style="display: block">
+                    </td>
+				</tr>
+                <tr>
+                    <td align="left" valign="top">
+                    	<table width="600" border="0" align="left" cellpadding="25" cellspacing="0">
+                        	<tr>
+                            	<td valign="top" style="font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif;" bgcolor="#FFFFFF">
+                                	<span style="font-family: 'Century Gothic', Helvetica, Verdana, Arial, sans-serif; font-size: 24px; font-weight: bold; color: #0d1959;">
+										Good day {$mailinglist.mailinglist_name}</span><br /><br />
+									Notification of an upcoming / past meeting from the <span style="font-weight: bold;">{$mailinglist.calendar_startdate|date_format:"%A, %B %e, %Y at %H:%M"}</span> till <span style="font-weight: bold;">{$mailinglist.calendar_enddate|date_format:"%A, %B %e, %Y at %H:%M"}</span>, at this address / area, <span style="font-weight: bold;">{$mailinglist.calendar_address}</span>. <br /><br />						
+									<a href="http://{$domain}/mailers/response/1/{$mailinglist.calendarattend_hascode}" style="color: green;font-weight: bold">Attending</a>&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;<a href="http://{$domain}/mailers/response/0/{$mailinglist.calendarattend_hascode}" style="color: red;font-weight: bold">Not attending</a>									
+									<br /><br />
+									{$mailinglist.calendar_description}																		
+									<br /><br />
+									<p><a style="text-decoration: none; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; color: #0d1959;" href="http://{$domain}/mailers/view/{$tracking}">If you cannot see this email properly, please click here to view it on a browser</a></p>
+                                    <p style="text-decoration: none; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; color: #0d1959;">
+									<br />
+									Regards<br />
+									The SMB Council Team
+									</p>
+                                </td>
+                            </tr>
+                        </table>
+					</td>
+				</tr>
+                <tr>
+					<td>
+                        <table width="600" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td bgcolor="#FFFFFF" valign="bottom" height="15"><img src="http://{$domain}/mailers/images/footer.gif" width="600" height="126" border="0" alt="" style="display: block"></td>
+                            </tr>
+                        </table>
+                    </td>
+				</tr>
+            </table>
+            <table width="600" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="400" height="50" align="left" valign="bottom" style="font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif; color: #FFFFFF;">
+                        <a href="http://www.smbcouncil.org" target="_blank" style="color: #FFFFFF;">www.smbcouncil.org</a><br />Suite 0303, Vogue House | Cape Town
+                    </td>
+                    <td width="200" valign="bottom" align="right" style="font-size: 12px; font-family: Helvetica, Verdana, Arial, sans-serif;">
+                        <a href="https://www.facebook.com/smbcouncil" target="_blank"><img src="http://{$domain}/mailers/images/fb_icon.png" width="27" height="29" border="0" alt="Facebook" /></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/smbcouncil" target="_blank"><img src="http://{$domain}/mailers/images/tw_icon.png" width="27" height="29" border="0" alt="Twitter" /></a><!--&nbsp;&nbsp;
+                        <a href="http://linkd.in/1bMcRiA" target="_blank"><img src="http://{$domain}/mailers/images/in_icon.png" width="27" height="29" border="0" alt="LinkedIn" /></a>&nbsp;&nbsp;
+                        <a href="https://plus.google.com/b/100325846078534250868/100325846078534250868/posts" target="_blank"><img src="http://{$domain}/mailers/images/g_icon.png" width="27" height="29" border="0" alt="Google +" /></a>-->
+                    </td>
+                </tr>
+            </table>
+            <br /><br />
+		</td>
+	</tr>
+</table>
+<img src="http://{$domain}/mailers/tracking/{$tracking}" height="0" alt="" width="0" />
+</body>
+</html>

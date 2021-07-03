@@ -1,0 +1,139 @@
+[14-May-2014 13:43:12 Africa/Johannesburg] PHP Warning:  require_once(class/mailer.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/lubabalo/public_html/administration/mailers/details.php on line 13
+[14-May-2014 13:43:12 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/mailer.php' (include_path='/home/lubabalo/public_html/:/home/lubabalo/public_html/library/classes/') in /home/lubabalo/public_html/administration/mailers/details.php on line 13
+[14-May-2014 14:20:54 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "/templates/mailers/standard.html" in /home/lubabalo/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[14-May-2014 14:24:24 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "/templates/mailers/standard.html" in /home/lubabalo/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[14-May-2014 14:26:03 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "/templates/mailers/standard.html" in /home/lubabalo/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[26-May-2014 23:17:33 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "templates/mailers/standard.html" in /home/lubabalo/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[31-May-2014 09:24:35 Africa/Johannesburg] PHP Fatal error:  Cannot redeclare class Zend_Mail in /home/lubabalo/public_html/library/classes/Zend/Mail.php on line 1261
+[11-Jul-2014 10:28:26 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_mailinglist::pairs() in /home/smbcounc/public_html/administration/campaign/mailers/mail.php on line 43
+[11-Jul-2014 10:29:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'profilecategory_active' in 'where clause'' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `mailing...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `mailing...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `mailing...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/mailinglist.php(192): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/mailers/mail.php(43 in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[11-Jul-2014 10:30:39 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'mailinglist_code, mailinglist_category' in 'group statement'' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `mailing...')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `mailing...')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `mailing...')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/mailinglist.php(192): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[15-Jul-2014 16:31:10 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in templates/campaign.html line 7]: syntax error: unrecognized tag: padding:0; (Smarty_Compiler.class.php, line 446) in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[15-Jul-2014 16:41:37 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in templates/campaign.html line 7]: syntax error: unrecognized tag: padding:0; (Smarty_Compiler.class.php, line 446) in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[15-Jul-2014 16:41:51 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in templates/campaign.html line 5]: syntax error: unrecognized tag 'literal' (Smarty_Compiler.class.php, line 590) in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[18-Jul-2014 15:00:54 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[18-Jul-2014 15:31:27 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:39:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:41:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:42:29 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:43:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:44:38 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:46:00 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[20-Jul-2014 23:48:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(365): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[28-Aug-2014 09:25:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(376): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[28-Aug-2014 09:25:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'smbcounc_db.(select _comm, count(_tracker_code) from _tracker)' doesn't exist' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(376): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/ in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[28-Aug-2014 09:33:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Incorrect parameter count in the call to native function 'ISNULL'' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(376): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/mailers/comms.php(3 in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[28-Aug-2014 09:33:18 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Incorrect parameter count in the call to native function 'ISNULL'' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(376): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/mailers/comms.php(3 in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[28-Aug-2014 09:33:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Incorrect parameter count in the call to native function 'ISNULL'' in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/smbcounc/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `_comm`....')
+#1 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `_comm`....')
+#2 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `_comm`....')
+#3 /home/smbcounc/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/smbcounc/public_html/library/classes/class/_comm.php(376): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/smbcounc/public_html/administration/campaign/mailers/comms.php(3 in /home/smbcounc/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

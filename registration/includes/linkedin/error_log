@@ -1,0 +1,1 @@
+[15-Jul-2014 21:04:09 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "mailers/web/registration_success.html" in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095

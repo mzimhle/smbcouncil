@@ -1,0 +1,4 @@
+[20-Jul-2014 12:44:25 Africa/Johannesburg] PHP Fatal error:  Class 'classprofile' not found in /home/smbcounc/public_html/administration/participant/profile/view/role.php on line 21
+[20-Jul-2014 12:46:16 Africa/Johannesburg] PHP Fatal error:  Call to a member function getByCode() on a non-object in /home/smbcounc/public_html/administration/participant/profile/view/role.php on line 29
+[20-Jul-2014 13:29:39 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in administration/participant/profile/view/role.tpl line 67]: syntax error: unrecognized tag: $item.profilecategory_name</td>
+				<td align="right"><button onclick="deleteitem('{$item.profilerole_code (Smarty_Compiler.class.php, line 446) in /home/smbcounc/public_html/library/classes/smarty/Smarty.class.php on line 1095
